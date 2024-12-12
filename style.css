@@ -1,0 +1,314 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-size: 100vw 100vh;
+  background-color: white;
+  background-position: center;
+  height: 20vh;
+  font-family: "Oswald";
+}
+header h2 {
+  font-size: 2.5rem;
+  width: 20%;
+  height: 4rem;
+  font-family: "Oswald";
+  font-weight: 700;
+}
+header nav {
+  display: flex;
+  width: 40%;
+  height: 20vh;
+  justify-content: end;
+  align-items: center;
+  font-family: "Oswald";
+  font-size: 1rem;
+  font-weight: 500;
+}
+header nav ul {
+  display: flex;
+  width: 40%;
+  justify-content: space-evenly;
+  list-style: none;
+}
+header nav a {
+  text-decoration: none;
+  color: rgb(91, 91, 91);
+}
+header .custom-contato {
+  background-color: white;
+  border: solid black;
+  text-align: center;
+  color: black;
+  width: 10%;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-family: "Oswald";
+  font-weight: 700;
+  height: 10vh;
+}
+
+.Gestão {
+  background-image: url(/Imagens/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw 100vh;
+  padding: 12rem;
+  color: white;
+  font-family: "Oswald";
+  flex-direction: column;
+}
+.Gestão h1 {
+  font-size: 5rem;
+  margin-bottom: 0.5rem;
+}
+.Gestão p {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 3rem;
+}
+.Gestão .serviços {
+  background-color: blue;
+  border: solid blue;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  width: 20%;
+  text-decoration: none;
+  font-family: "Oswald";
+  font-weight: 400;
+  font-size: 1.5rem;
+  height: 8vh;
+}
+
+.Integrada {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  justify-items: center;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  -moz-column-count: 2;
+       column-count: 2;
+  margin-top: 10rem;
+  padding: 3rem;
+}
+.Integrada h2 {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: start;
+  color: blue;
+  font-family: "Oswald";
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  padding: 0%;
+}
+.Integrada .simplificando {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  color: black;
+  font-family: "roboto";
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  width: 50%;
+}
+.Integrada .aporto {
+  display: flex;
+  font-family: "roboto";
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: justify;
+  text-justify: left;
+  width: 50%;
+  margin-bottom: 3rem;
+}
+.Integrada ul {
+  list-style: none;
+}
+.Integrada ul a {
+  display: flex;
+  color: blue;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: "roboto";
+  text-decoration: none;
+}
+
+.soluções {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  background-color: rgb(216, 216, 216);
+  background-repeat: no-repeat;
+  padding: 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: "Oswald";
+}
+.soluções h2 {
+  color: blue;
+  text-align: center;
+}
+.soluções p {
+  color: black;
+  text-align: center;
+}
+
+.mar {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding: 3rem;
+}
+.mar ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  font-size: 1rem;
+  font-family: "Oswald";
+  font-weight: 500;
+  text-decoration: none;
+  text-align: none;
+  list-style: none;
+  gap: 1rem;
+}
+.mar ul img {
+  width: 6rem;
+  height: 6rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.mar ul h1 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+.mar p {
+  font-size: 1rem;
+  font-weight: 200;
+  padding: 1rem;
+  margin-top: 1rem;
+  text-align: center;
+  background-color: white;
+  width: 100%;
+}
+
+h1 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.atendimento {
+  display: flex;
+  -moz-column-count: 2;
+       column-count: 2;
+  font-family: "Oswald";
+  font-weight: 500;
+  font-size: 1rem;
+}
+.atendimento h2 {
+  color: blue;
+  font-family: "Oswald";
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+.atendimento h3 {
+  color: black;
+  font-family: "Oswald";
+  font-weight: 500;
+  font-size: 1rem;
+}
+.atendimento .primeira {
+  -moz-column-count: 2;
+       column-count: 2;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.atendimento .segunda {
+  -moz-column-count: 2;
+       column-count: 2;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+form {
+  max-width: 38rem;
+  padding: 1.2rem;
+  padding: 10rem;
+  background-color: white;
+  border: 0.5rem;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+legend {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.fale {
+  color: blue;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+label {
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+}
+
+button {
+  background-color: blue;
+  border: solid blue;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  width: 30%;
+  text-decoration: none;
+  font-family: "Oswald";
+  font-weight: 400;
+  font-size: 1.5rem;
+  height: 8vh;
+}
+
+footer {
+  display: flex;
+  background-color: #b6b4b4;
+  height: 10vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  font-family: "Oswald";
+  font-weight: 700;
+  color: rgb(0, 28, 67);
+}/*# sourceMappingURL=style.css.map */
